@@ -1,6 +1,11 @@
+## 프로젝트 정보
 
 ### Project Name : forhyemin 
 ### App name : comment
+
+
+
+## 봐야할 파일
 
 ### URL 연결 (라우팅)
 - forhyemin/urls.py
