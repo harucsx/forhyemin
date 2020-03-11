@@ -1,0 +1,16 @@
+
+Message : {{ message | safe }} <br/>
+
+<form action="" method="get">
+    - FORM 1 - <br/>
+    <input type="text" name="whatisyourname"/>
+    <input type="submit" value="GET으로 요청"/>
+</form>
+
+
+<form action="" method="post">
+    {% csrf_token %}
+    - FORM 2 - <br/>
+    <input type="text" name="city"/>
+    <input type="submit" value="POST로 요청"/>
+</form>
